@@ -1,0 +1,13 @@
+h1,h3 {
+    color:white;
+}
+
+body {
+    background-image: url('../img/tim-wright-122632-unsplash.jpg');
+}
+
+
+#home-content{
+    text-align: center;
+    padding: 20%;
+}

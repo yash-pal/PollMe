@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+
+    <h1> welcome to poll list</h1>
+    <ul>
+    {% for poll  in polls  %}
+        <li>{{ poll  }}</li>
+    {% endfor %}  
+    </ul>
+</div>
+
+{% endblock %}
